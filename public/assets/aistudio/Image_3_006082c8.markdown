@@ -1,0 +1,248 @@
+---
+name: Silicon Architecture & Physical Design
+colors:
+  surface: '#081325'
+  surface-dim: '#081325'
+  surface-bright: '#2f394d'
+  surface-container-lowest: '#040e20'
+  surface-container-low: '#111c2e'
+  surface-container: '#152032'
+  surface-container-high: '#202a3d'
+  surface-container-highest: '#2a3548'
+  on-surface: '#d8e3fc'
+  on-surface-variant: '#bbc9cd'
+  inverse-surface: '#d8e3fc'
+  inverse-on-surface: '#263144'
+  outline: '#859397'
+  outline-variant: '#3c494c'
+  surface-tint: '#2fd9f4'
+  primary: '#8aebff'
+  on-primary: '#00363e'
+  primary-container: '#22d3ee'
+  on-primary-container: '#005763'
+  inverse-primary: '#006877'
+  secondary: '#ffb95f'
+  on-secondary: '#472a00'
+  secondary-container: '#ee9800'
+  on-secondary-container: '#5b3800'
+  tertiary: '#ffd6a3'
+  on-tertiary: '#462b00'
+  tertiary-container: '#ffb13b'
+  on-tertiary-container: '#6e4600'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#a2eeff'
+  primary-fixed-dim: '#2fd9f4'
+  on-primary-fixed: '#001f25'
+  on-primary-fixed-variant: '#004e5a'
+  secondary-fixed: '#ffddb8'
+  secondary-fixed-dim: '#ffb95f'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#653e00'
+  tertiary-fixed: '#ffddb5'
+  tertiary-fixed-dim: '#ffb957'
+  on-tertiary-fixed: '#2a1800'
+  on-tertiary-fixed-variant: '#643f00'
+  background: '#081325'
+  on-background: '#d8e3fc'
+  surface-variant: '#2a3548'
+typography:
+  display-hero:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  tech-data-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  tech-data-md:
+    fontFamily: JetBrains Mono
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0em
+  tech-data-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system embodies the calculated precision, microscopic complexity, and high-reliability discipline of advanced silicon VLSI physical design. Developed to present high-performance tapeouts, floorplanning hierarchies, static timing analyses (STA), and DRC/LVS closure, the interface evokes the deep-level precision of electronic design automation (EDA) tooling translated into an executive-grade technical portfolio.
+
+The target audience comprises Principal Silicon Architects, Foundry Directors, Staff Hardware Engineers, and Engineering Leadership at tier-one semiconductor and fabless tech firms. The visual tone eschews frivolous decorative trends, cartoonish graphics, and vaporous gradients. Instead, it commits to a sophisticated, data-rich architectural language defined by:
+- **Structural Orthogonality:** Clean geometric layouts reminiscent of die floorplans, routing channels, and cell placement arrays.
+- **Instrument Precision:** High legibility, monospaced register reads, and exact typographic hierarchy mimicking high-end oscilloscopes, layout viewers, and logic analyzers.
+- **Controlled Luminescence:** Deep, noise-free silicon dark substrates punctuated by targeted, functional photolithographic accents (ion-glow cyan and timing-violation amber).
+
+## Colors
+
+The color palette reflects an ultra-cleanroom EDA console environment. Contrast levels prioritize long-form technical clarity, node-level schematic readability, and immediate hierarchy recognition.
+
+### Palette Architecture
+- **Primary Canvas (`#101B2D`):** Deep silicon substrate. Serves as the global backdrop, establishing an atmospheric, low-fatigue workspace.
+- **Surface Elevation (`#1E293B`):** Structural cell and macro container tone. Provides layered depth for cards, register tables, and layout modules.
+- **Border & Routing Lines (`#334155`):** Structural grid lines, die boundaries, and component separators. Delivers microscopic definition without visual clutter.
+- **Primary Text (`#F8FAFC`):** Pure signal legibility for titles, critical timing numbers, and core headlines.
+- **Secondary Text (`#94A3B8`):** Low-strain metadata, descriptions, architectural annotations, and bus metrics.
+- **Accent - Cyan (`#22D3EE`):** Active signal nets, optimized paths, clock trees, dynamic states, and focal interactive elements.
+- **Highlight - Amber (`#F59E0B`):** Critical path indicators, physical constraints, tapeout milestones, power-domain demarcations, and alert states.
+
+Color is deployed with surgical discipline: neutral and surface values dominate 90% of the visual field, while cyan and amber are reserved strictly for data accents, interactive states, and telemetry emphasis.
+
+## Typography
+
+The typographic system pairs three specialized typefaces into a coherent hierarchy:
+
+1. **Space Grotesk (Display & Section Headings):** Delivers geometric confidence with subtle engineering angles. Used exclusively for primary titles, section headers, and macro names.
+2. **Inter (Body Prose & Narrative):** Provides maximum neutral legibility for architectural overviews, technical narratives, and methodology case studies.
+3. **JetBrains Mono (Technical Data, EDA Telemetry, & Labels):** Deployed for frequency numbers, slack figures (WNS/TNS), technology nodes (e.g., `3nm FinFET`, `TSMC N5`), pin counts, power dissipation metrics, and navigation tags.
+
+All numbers in telemetry tables and cards must utilize tabular figures (`font-variant-numeric: tabular-nums`) to preserve columnar alignment across variable clock frequencies and timing parameters.
+
+## Layout & Spacing
+
+The layout philosophy mirrors physical chip floorplanning: deterministic, orthogonal, and modular. Everything sits on an explicit 4px/8px sub-grid, reinforcing the precision of layout verification matrices.
+
+### Breakpoints & Grid Composition
+- **Desktop (1200px+):** 12-column symmetrical layout grid with `1.5rem` gutters and a maximum bounded container width of `1280px`. Section margins scale to `3rem` (or `4rem` for major stage separators).
+- **Tablet (768px - 1199px):** 8-column layout with `1.25rem` gutters and `2rem` side margins. Architectural diagrams and telemetry grids collapse from multi-column rows into split macro blocks.
+- **Mobile (< 768px):** 4-column layout with `1rem` gutters and `1.25rem` outer canvas padding. Metric pairs stack horizontally, while high-density floorplan diagrams gain lateral pan-and-scan containers or simplified block representations.
+
+### Vertical Cadence & White Space
+Spacing is engineered to balance high information density with immediate scannability. Component interiors employ tight, controlled padding (`space-md` to `space-lg`) to evoke dense hardware dashboards, while inter-module margins (`space-xl` to `space-2xl`) maintain executive calm and prevent cognitive exhaustion.
+
+## Elevation & Depth
+
+In a silicon engineering context, elevation does not rely on soft, realistic drop shadows or glossy skeuomorphism. Instead, depth is articulated through **tonal stratification and architectural line definition**.
+
+### Layer Hierarchy
+1. **Silicon Substrate (Base Layer - `#101B2D`):** The primary canvas representing empty routing track space and substrate ground.
+2. **Standard Cell Tier (First Elevation - `#1E293B`):** Cards, metric containers, and module panels. Always delineated by a crisp `1px solid #334155` border.
+3. **Active Metal Tier (Interactive / Focused Layer - `#1E293B` elevated):** Hovered cards or focused states receive a direct border shift from `#334155` to `#22D3EE` (or `#F59E0B` for critical constraints) accompanied by an ultra-subtle, non-diffuse outline glow: `0 0 0 1px #22D3EE, 0 8px 24px rgba(34, 211, 238, 0.08)`.
+4. **Overlay / Inspector Tier (Top Layer - `#101B2D` with 90% opacity & `backdrop-filter: blur(8px)`):** Fixed header bars, modal inspection drawers for timing paths, and floating pin-assignment tooltips. Framed with a 1px `#334155` edge.
+
+## Shapes
+
+The shape vocabulary is strictly disciplined, prioritizing micro-radii to evoke lithographic chip dies, IC package modules, and silicon wafers:
+
+- **Corner Radii (`0.25rem` / `4px` base):** Applied uniformly to cards, buttons, badges, and tabs. Avoids harsh, razor-sharp brutalism while remaining decisively technical and structured.
+- **Pill / Circular Elements:** Strictly restricted to binary status monitors (e.g., active pass/fail indicators, phase-locked loop lock dots) at fixed `8px` or `10px` sizes. Rounded capsules and pill buttons are explicitly prohibited to prevent consumer-SaaS visual contamination.
+- **Connectors & Dividers:** Always crisp, 1-pixel horizontal or vertical lines utilizing `#334155`.
+
+## Components
+
+### Buttons
+- **Primary Technical Action:** Background `#22D3EE`, text `#101B2D`, font `Space Grotesk` (medium, 14px), radius `4px`, padding `10px 18px`. Hover: Background brightness increased to `#67E8F9` with a subtle `box-shadow: 0 0 16px rgba(34, 211, 238, 0.25)`.
+- **Secondary / Substrate Action:** Background transparent, border `1px solid #334155`, text `#F8FAFC`, font `JetBrains Mono` (medium, 13px), radius `4px`, padding `9px 16px`. Hover: Border color shifts to `#22D3EE`, text changes to `#22D3EE`.
+- **Critical / Constraint Action:** Background transparent, border `1px solid #F59E0B`, text `#F59E0B`, font `JetBrains Mono` (medium, 13px). Hover: Background `rgba(245, 158, 11, 0.1)`.
+
+### Chips & Telemetry Tags
+- Compact height (`22px` - `26px`), radius `4px`, padding `2px 8px`.
+- Typography: `JetBrains Mono`, `label-caps` (`11px`).
+- **Standard Node Tag:** Background `#101B2D`, border `1px solid #334155`, text `#94A3B8`.
+- **Clock / Active Tag:** Background `rgba(34, 211, 238, 0.08)`, border `1px solid rgba(34, 211, 238, 0.4)`, text `#22D3EE`.
+- **Timing / Power Tag:** Background `rgba(245, 158, 11, 0.08)`, border `1px solid rgba(245, 158, 11, 0.4)`, text `#F59E0B`.
+
+### Cards & Silicon Modules
+- Background `#1E293B`, border `1px solid #334155`, radius `4px`, padding `space-lg`.
+- Top-right corner optionally houses a hardware coordinate tag (e.g., `[X: 104.2, Y: 88.6]` or `BLOCK_CLK_01`) set in `tech-data-sm` with text `#94A3B8`.
+- On hover: Border transforms smoothly to `#22D3EE` (200ms ease-out). No scale transformation or vertical translation is allowed.
+
+### Technical Metrics & KPI Display
+- Designed for tapeout achievements (e.g., `0.78V VDD`, `3.2 GHz`, `0 DRC Errors`, `+12ps Slack`).
+- Value rendered in `tech-data-lg` (`Space Grotesk` or `JetBrains Mono`, `#F8FAFC`).
+- Label positioned below or above in `label-caps` (`#94A3B8`).
+- Accentuation: Positive metrics receive a leading cyan tick mark (`#22D3EE`), while power or critical limits display amber indicators (`#F59E0B`).
+
+### Interactive Input Fields
+- Background `#101B2D`, border `1px solid #334155`, text `#F8FAFC`, placeholder `#94A3B8`, radius `4px`, padding `10px 14px`.
+- Font: `JetBrains Mono` (14px) for search queries, tool filters, and parameter forms.
+- Focus: Outline none, border `1px solid #22D3EE`, subtle shadow `0 0 0 1px #22D3EE`.
+
+### Lists & Register Tables
+- Alternating subtle row backgrounds (`#1E293B` and `#162235`).
+- Row borders: `1px solid #334155` bottom divider.
+- Cell text: `Inter` for functional descriptions; `JetBrains Mono` for clock domains, power values, and wire lengths.
+- Header row: Uppercase `label-caps`, text `#94A3B8`, border bottom `2px solid #334155`.
